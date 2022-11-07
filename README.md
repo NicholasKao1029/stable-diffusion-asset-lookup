@@ -1,4 +1,4 @@
-# stable-diffusion-aux
+# stable-diffusion-asset-lookup
 This an extension for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 This is a utility extension for models hypernetworks and vaes
