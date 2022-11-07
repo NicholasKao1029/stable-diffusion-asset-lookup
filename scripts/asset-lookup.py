@@ -3,7 +3,7 @@ import gradio as gr
 from pprint import pprint
 from modules.hypernetworks import hypernetwork
 
-tab_title = 'Asset Search'
+tab_title = 'Asset Lookup'
 tab_elem_id = tab_title + "_interface"
 Assets = ['Models', 'Hypernetworks', 'Embeddings']
 
