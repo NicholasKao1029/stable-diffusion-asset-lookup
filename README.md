@@ -10,6 +10,7 @@ This is a utility extension for lookuping your SD assets.
 ### Future
 - Embeddings
 - Vaes
+- Set model & etc. after searching
 
 go to the directory \<stable-diffusion-webui project path\>/extensions and run command  to install:
 

@@ -127,12 +127,12 @@ def on_ui_tabs():
     with gr.Blocks(analytics_enabled=False) as auxiliary_interface:
         with gr.Row().style(equal_height=False):
             with gr.Column(variant='panel'):
+                gr.HTML(value="Search your stable diffusion assets here")
                 with gr.Row():       
                     model_button = gr.Button(Assets[0])
                     hypernetwork_button = gr.Button(Assets[1])
                     embedding_button = gr.Button(Assets[2])
-                gr.HTML(value="Search your stable diffusion assets here")
-                searchByDropDown = gr.Dropdown(choices=headers, value=selected_option)
+                searchByDropDown = gr.Dropdown(label="Search By", choices=headers, value=selected_option)
                 search_bar = gr.Textbox(label="Search")
                 
                 # parse list
