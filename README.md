@@ -18,6 +18,8 @@ go to the directory \<stable-diffusion-webui project path\>/extensions and run c
 
 and restart your stable-diffusion-webui, then you can see the new tab "Images Browser"
 
+Check out this [demo](https://www.loom.com/share/3e753212cd58452d8cd9efef11f4ce3d)
+
  [See here for more install details]( https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Extensions)
 
 
